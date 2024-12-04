@@ -4,7 +4,6 @@ Materiāli apmācībām projekta “Augstas izšķirtspējas bioloģiskās daudz
 kvantificēšana dabas saglabāšanai un apsaimniekošanai: HiQBioDiv” 
 (VPP-VARAM-DABA-2024/1-0002) ietvaros
 
-Tests
 
 ### Ievads
 
