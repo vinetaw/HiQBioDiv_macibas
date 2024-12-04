@@ -1,4 +1,4 @@
-# Otrais uzdevums: sagatavošanās darbam
+# Otrais uzdevums: vektordati, to ģeometrijas, atribūti un failu formāti
 
 
 ## Termiņš
