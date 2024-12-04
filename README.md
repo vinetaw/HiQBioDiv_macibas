@@ -211,22 +211,22 @@ Sagaidāmie uzdevumi (virsrakstu līmenī):
 
 1. uzdevums: [sagatavošanās darbam](./Uzd01/PirmaisUzdevums.md)
 
-2. uzdevums: vektordati, to ģeometrijas, atribūti un failu formāti
+2. uzdevums: [vektordati, to ģeometrijas, atribūti un failu formāti](./Uzd02/OtraisUzdevums.md)
 
-3. uzdevums: rastra dati, rasterizēšana un kodējumi
+3. uzdevums: [rastra dati, rasterizēšana un kodējumi](./Uzd03/TresaisUzdevums.md)
 
-4. uzdevums: funkcijas, cikli, vienkodola un daudzkodolu skaitļošana
+4. uzdevums: [funkcijas, cikli, vienkodola un daudzkodolu skaitļošana](./Uzd04/CeturtaisUzdevums.md)
 
-5. uzdevums: procesu dalīšana un rezultātu apvienošana
+5. uzdevums: [procesu dalīšana un rezultātu apvienošana](./Uzd05/PiektaisUzdevums.md)
 
-6. uzdevums: dažādu slāņu apvienošana vienotai ainavas aprakstīšanai
+6. uzdevums: [dažādu slāņu apvienošana vienotai ainavas aprakstīšanai](./Uzd06/SestaisUzdevums.md)
 
-7. uzdevums: Zonālā statistika
+7. uzdevums: [zonālā statistika](./Uzd07/SeptitaisUzdevums.md)
 
-8. uzdevums: GEE
+8. uzdevums: [GEE](./Uzd08/AstotaisUzdevums.md)
 
-9. uzdevums: sugas izvēle un tās ekoloģijas apraksta 
-(modelēšanai un aizsardzības telpiskajai plānošanai) sagatavošana
+9. uzdevums: sugas izvēle un tās ekoloģijas apraksts  
+(modelēšanai un aizsardzības telpiskajai plānošanai)
 
 10. uzdevums: novērojumu atlase modelēšanai
 
