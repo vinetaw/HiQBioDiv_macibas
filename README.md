@@ -4,6 +4,7 @@ Materiāli apmācībām projekta “Augstas izšķirtspējas bioloģiskās daudz
 kvantificēšana dabas saglabāšanai un apsaimniekošanai: HiQBioDiv” 
 (VPP-VARAM-DABA-2024/1-0002) ietvaros
 
+
 ### Ievads
 
 Projekta mērķis ir piedāvāt jaunas zināšanas par ES aizsargājamo sugu un biotopu 
