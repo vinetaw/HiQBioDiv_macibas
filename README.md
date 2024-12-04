@@ -1,1 +1,1 @@
-# HiQBioDiv_macibas
+# Apmācības projekta "HiQBioDiv" ietvaros
