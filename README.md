@@ -205,41 +205,86 @@ darbs šajā projektā nav Jums piemērots.
 ### Uzdevumi
 
 Precīzi visu uzdevumu formulējumi tiks publiskoti apmācību gaitā. 
-Tie būs pieejami šajā kontā atsevišķās direktorijās.
+Tie būs pieejami šī repozitorija atsevišķās direktorijās.
+
+Apmācības sāksies ar patstāvīgajiem darbiem - individuālu iepazīšanos ar piedāvātajiem
+informācijas avotiem un patstāvīgu zemāk uzskaitīto uzdevumu izpildi. Šī kursa ietvaros 
+pieņemam, ka tā dalībniekiem ir pamata priekšzināšanas darbā ar R un kādu ĢIS (ģeogrāfiskās 
+informācijas sistēmu) un pamata līmeņa izpratne par ģeodatiem un to apstrādi. Tādēļ 
+apmācību sākumā ir patstāvīgi pildāmi pirmie uzdevumi, kuru rezultāti tiks pārrunāti, 
+uzsākot klātienes tikšanās no 2025. gada janvāra vidus. Šo klātienes tikšanos laikā arī 
+tiks piedāvāts ieskats teorētiskajā pamatojumā un piemēros nākošajām nodarbībām. Tātad, 
+uz katru nodarbību ir jāsagatavojas, izpildot visus līdz tam paredzētos uzdevumus un 
+jau laicīgi ir jāiegulda laiks, lai iepazītos ar piedāvātajiem informācijas resursiem 
+apmācību tēmai kopumā.
 
 Sagaidāmie uzdevumi (virsrakstu līmenī):
 
-1. uzdevums: [sagatavošanās darbam](./Uzd01/PirmaisUzdevums.md)
+1. uzdevums: [sagatavošanās darbam](./Uzd01/PirmaisUzdevums.md) 
 
-2. uzdevums: [vektordati, to ģeometrijas, atribūti un failu formāti](./Uzd02/OtraisUzdevums.md)
+Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2024-12-15**
 
-3. uzdevums: [rastra dati, rasterizēšana un kodējumi](./Uzd03/TresaisUzdevums.md)
+2. uzdevums: [vektordati, to ģeometrijas, atribūti un failu formāti](./Uzd02/OtraisUzdevums.md) 
 
-4. uzdevums: [funkcijas, cikli, vienkodola un daudzkodolu skaitļošana](./Uzd04/CeturtaisUzdevums.md)
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-10**
 
-5. uzdevums: [procesu dalīšana un rezultātu apvienošana](./Uzd05/PiektaisUzdevums.md)
+3. uzdevums: [rastra dati, rasterizēšana un kodējumi](./Uzd03/TresaisUzdevums.md) 
 
-6. uzdevums: [dažādu slāņu apvienošana vienotai ainavas aprakstīšanai](./Uzd06/SestaisUzdevums.md)
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-10**
 
-7. uzdevums: [zonālā statistika](./Uzd07/SeptitaisUzdevums.md)
+4. uzdevums: [funkcijas, cikli, vienkodola un daudzkodolu skaitļošana](./Uzd04/CeturtaisUzdevums.md) 
 
-8. uzdevums: [GEE](./Uzd08/AstotaisUzdevums.md)
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-10**
+
+5. uzdevums: [procesu dalīšana un rezultātu apvienošana](./Uzd05/PiektaisUzdevums.md) 
+
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
+
+6. uzdevums: [dažādu slāņu apvienošana vienotai ainavas aprakstīšanai](./Uzd06/SestaisUzdevums.md) 
+
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
+
+7. uzdevums: [zonālā statistika](./Uzd07/SeptitaisUzdevums.md) 
+
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
+
+8. uzdevums: [GEE](./Uzd08/AstotaisUzdevums.md) 
+
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
 
 9. uzdevums: sugas izvēle un tās ekoloģijas apraksts  
-(modelēšanai un aizsardzības telpiskajai plānošanai)
+(modelēšanai un aizsardzības telpiskajai plānošanai) 
 
-10. uzdevums: novērojumu atlase modelēšanai
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-20**
 
-11. uzdevums: sugai specifiski ekoģeogrāfiskie mainīgie
+10. uzdevums: novērojumu atlase modelēšanai 
 
-12. uzdevums: sugas izplatības modelēšana
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-20**
 
-13. uzdevums: asociācijas un preferences dzīvotņu piemērotībā
+11. uzdevums: sugai specifiski ekoģeogrāfiskie mainīgie 
 
-14. uzdevums: vietu prioritizēšana aizsardzībai
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-29**
 
-15. uzdevums: vietu aizņemtība
+12. uzdevums: sugas izplatības modelēšana 
 
-16. uzdevums: populācijas lielums
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-05**
 
-17. uzdevums: daudzsugu izplatība
+13. uzdevums: asociācijas un preferences dzīvotņu piemērotībā 
+
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-12**
+
+14. uzdevums: vietu prioritizēšana aizsardzībai 
+
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-19**
+
+15. uzdevums: vietu aizņemtība 
+
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-26**
+
+16. uzdevums: populācijas lielums 
+
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-03-05**
+
+17. uzdevums: daudzsugu izplatība 
+
+Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-03-12**
