@@ -252,39 +252,39 @@ Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
 
-9. uzdevums: sugas izvēle un tās ekoloģijas apraksts  
+9. uzdevums: [sugas izvēle un tās ekoloģijas apraksts](./Uzd09/DevitaisUzdevums.md)  
 (modelēšanai un aizsardzības telpiskajai plānošanai) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-20**
 
-10. uzdevums: novērojumu atlase modelēšanai 
+10. uzdevums: [novērojumu atlase modelēšanai](./Uzd10/DesmitaisUzdevums.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-20**
 
-11. uzdevums: sugai specifiski ekoģeogrāfiskie mainīgie 
+11. uzdevums: [sugai specifiski ekoģeogrāfiskie mainīgie](./Uzd11/VienpadsmitaisUzdevums.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-29**
 
-12. uzdevums: sugas izplatības modelēšana 
+12. uzdevums: [sugas izplatības modelēšana](./Uzd12/DivpadsmitaisUzdevums.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-05**
 
-13. uzdevums: asociācijas un preferences dzīvotņu piemērotībā 
+13. uzdevums: [asociācijas un preferences dzīvotņu piemērotībā](./Uzd13/TrispadsmitaisUzdevums.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-12**
 
-14. uzdevums: vietu prioritizēšana aizsardzībai 
+14. uzdevums: [vietu prioritizēšana aizsardzībai](./Uzd14/CetrpadsmitaisUzdevums.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-19**
 
-15. uzdevums: vietu aizņemtība 
+15. uzdevums: [vietu aizņemtība](./Uzd15/PiecpadsmitaisUzdevums.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-26**
 
-16. uzdevums: populācijas lielums 
+16. uzdevums: [populācijas lielums](./Uzd16/SespadsmitaisUzdevums.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-03-05**
 
-17. uzdevums: daudzsugu izplatība 
+17. uzdevums: [daudzsugu izplatība](./Uzd17/SeptinpadsmitaisUzdevums.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-03-12**
