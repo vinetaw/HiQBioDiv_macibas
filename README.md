@@ -224,67 +224,67 @@ Sagaidāmie uzdevumi (virsrakstu līmenī):
 
 Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2024-12-15**
 
-2. uzdevums: [vektordati, to ģeometrijas, atribūti un failu formāti](./Uzd02/OtraisUzdevums.md) 
+2. uzdevums: [vektordati, to ģeometrijas, atribūti un failu formāti](./Uzd02/Uzdevums02.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-10**
 
-3. uzdevums: [rastra dati, rasterizēšana un kodējumi](./Uzd03/TresaisUzdevums.md) 
+3. uzdevums: [rastra dati, rasterizēšana un kodējumi](./Uzd03/Uzdevums03.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-10**
 
-4. uzdevums: [funkcijas, cikli, vienkodola un daudzkodolu skaitļošana](./Uzd04/CeturtaisUzdevums.md) 
+4. uzdevums: [funkcijas, cikli, vienkodola un daudzkodolu skaitļošana](./Uzd04/Uzdevums04.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-10**
 
-5. uzdevums: [procesu dalīšana un rezultātu apvienošana](./Uzd05/PiektaisUzdevums.md) 
+5. uzdevums: [procesu dalīšana un rezultātu apvienošana](./Uzd05/Uzdevums05.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
 
-6. uzdevums: [dažādu slāņu apvienošana vienotai ainavas aprakstīšanai](./Uzd06/SestaisUzdevums.md) 
+6. uzdevums: [dažādu slāņu apvienošana vienotai ainavas aprakstīšanai](./Uzd06/Uzdevums06.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
 
-7. uzdevums: [zonālā statistika](./Uzd07/SeptitaisUzdevums.md) 
+7. uzdevums: [zonālā statistika](./Uzd07/Uzdevums07.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
 
-8. uzdevums: [GEE](./Uzd08/AstotaisUzdevums.md) 
+8. uzdevums: [GEE](./Uzd08/Uzdevums08.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
 
-9. uzdevums: [sugas izvēle un tās ekoloģijas apraksts](./Uzd09/DevitaisUzdevums.md)  
+9. uzdevums: [sugas izvēle un tās ekoloģijas apraksts](./Uzd09/Uzdevums09.md)  
 (modelēšanai un aizsardzības telpiskajai plānošanai) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-20**
 
-10. uzdevums: [novērojumu atlase modelēšanai](./Uzd10/DesmitaisUzdevums.md) 
+10. uzdevums: [novērojumu atlase modelēšanai](./Uzd10/Uzdevums10.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-20**
 
-11. uzdevums: [sugai specifiski ekoģeogrāfiskie mainīgie](./Uzd11/VienpadsmitaisUzdevums.md) 
+11. uzdevums: [sugai specifiski ekoģeogrāfiskie mainīgie](./Uzd11/Uzdevums11.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-29**
 
-12. uzdevums: [sugas izplatības modelēšana](./Uzd12/DivpadsmitaisUzdevums.md) 
+12. uzdevums: [sugas izplatības modelēšana](./Uzd12/Uzdevums12.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-05**
 
-13. uzdevums: [asociācijas un preferences dzīvotņu piemērotībā](./Uzd13/TrispadsmitaisUzdevums.md) 
+13. uzdevums: [asociācijas un preferences dzīvotņu piemērotībā](./Uzd13/Uzdevums13.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-12**
 
-14. uzdevums: [vietu prioritizēšana aizsardzībai](./Uzd14/CetrpadsmitaisUzdevums.md) 
+14. uzdevums: [vietu prioritizēšana aizsardzībai](./Uzd14/Uzdevums14.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-19**
 
-15. uzdevums: [vietu aizņemtība](./Uzd15/PiecpadsmitaisUzdevums.md) 
+15. uzdevums: [vietu aizņemtība](./Uzd15/Uzdevums15.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-02-26**
 
-16. uzdevums: [populācijas lielums](./Uzd16/SespadsmitaisUzdevums.md) 
+16. uzdevums: [populācijas lielums](./Uzd16/Uzdevums16.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-03-05**
 
-17. uzdevums: [daudzsugu izplatība](./Uzd17/SeptinpadsmitaisUzdevums.md) 
+17. uzdevums: [daudzsugu izplatība](./Uzd17/Uzdevums17.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-03-12**
