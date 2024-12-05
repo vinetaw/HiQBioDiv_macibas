@@ -1,11 +1,11 @@
-# Septitais uzdevums: zonālā statistika
+# Septiņpadsmitais uzdevums: daudzsugu izplatība
 
 
 ## Termiņš
 
-Līdz 2025-01-15, izmantojot git pull -> commit -> push uz zaru "Dalibnieki", 
+Līdz 2025-03-12, izmantojot git pull -> commit -> push uz zaru "Dalibnieki", 
 šī uzdevuma direktorijā pievienojot .Rmd vai .qmd failu, kura nosaukums ir 
-Uzd07_[JusuUzvards], piemēram, `Uzd07_Avotins.Rmd`, kas sagatavots html 
+Uzd17_[JusuUzvards], piemēram, `Uzd17_Avotins.Rmd`, kas sagatavots html 
 dokumenta izvadei, un, no šīs izvades izveidotu, .pdf izdruku ar atbilstošu 
 faila nosaukumu.
 
