@@ -1,5 +1,5 @@
 ---
-title: "Otrais uzdevums: vektordati, to ģeometrijas, atribūti un failu formāti"
+title: "Septiņpadsmitais uzdevums: daudzsugu izplatība"
 output: rmarkdown::github_document
 ---
 
@@ -10,9 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Termiņš
 
-Līdz 2025-01-10, izmantojot git pull -> commit -> push uz zaru "Dalibnieki", 
+Līdz 2025-03-12, izmantojot git pull -> commit -> push uz zaru "Dalibnieki", 
 šī uzdevuma direktorijā pievienojot .Rmd vai .qmd failu, kura nosaukums ir 
-Uzd02_[JusuUzvards], piemēram, `Uzd02_Avotins.Rmd`, kas sagatavots izvadei github 
+Uzd17_[JusuUzvards], piemēram, `Uzd17_Avotins.Rmd`, kas sagatavots izvadei github 
 dokumentā (piemēram, YAML galvenē norādot `output: rmarkdown::github_document`), 
 un tā radīto izvades failu.
 

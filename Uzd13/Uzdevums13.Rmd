@@ -1,5 +1,5 @@
 ---
-title: "Otrais uzdevums: vektordati, to ģeometrijas, atribūti un failu formāti"
+title: "Trīspadsmitais uzdevums: asociācijas un preferences dzīvotņu piemērotībā"
 output: rmarkdown::github_document
 ---
 
@@ -10,15 +10,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Termiņš
 
-Līdz 2025-01-10, izmantojot git pull -> commit -> push uz zaru "Dalibnieki", 
+Līdz 2025-02-12, izmantojot git pull -> commit -> push uz zaru "Dalibnieki", 
 šī uzdevuma direktorijā pievienojot .Rmd vai .qmd failu, kura nosaukums ir 
-Uzd02_[JusuUzvards], piemēram, `Uzd02_Avotins.Rmd`, kas sagatavots izvadei github 
+Uzd13_[JusuUzvards], piemēram, `Uzd13_Avotins.Rmd`, kas sagatavots izvadei github 
 dokumentā (piemēram, YAML galvenē norādot `output: rmarkdown::github_document`), 
 un tā radīto izvades failu.
 
 ## Premise
 
 Skatīt pamata zarā
+
 
 
 ## Uzdevums

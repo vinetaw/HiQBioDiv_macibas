@@ -1,11 +1,11 @@
-Otrais uzdevums: vektordati, to ģeometrijas, atribūti un failu formāti
+Septitais uzdevums: zonālā statistika
 ================
 
 ## Termiņš
 
-Līdz 2025-01-10, izmantojot git pull -\> commit -\> push uz zaru
+Līdz 2025-01-15, izmantojot git pull -\> commit -\> push uz zaru
 “Dalibnieki”, šī uzdevuma direktorijā pievienojot .Rmd vai .qmd failu,
-kura nosaukums ir Uzd02\_\[JusuUzvards\], piemēram, `Uzd02_Avotins.Rmd`,
+kura nosaukums ir Uzd07\_\[JusuUzvards\], piemēram, `Uzd07_Avotins.Rmd`,
 kas sagatavots izvadei github dokumentā (piemēram, YAML galvenē norādot
 `output: rmarkdown::github_document`), un tā radīto izvades failu.
 

@@ -1,11 +1,11 @@
-Otrais uzdevums: vektordati, to ģeometrijas, atribūti un failu formāti
+Trīspadsmitais uzdevums: asociācijas un preferences dzīvotņu piemērotībā
 ================
 
 ## Termiņš
 
-Līdz 2025-01-10, izmantojot git pull -\> commit -\> push uz zaru
+Līdz 2025-02-12, izmantojot git pull -\> commit -\> push uz zaru
 “Dalibnieki”, šī uzdevuma direktorijā pievienojot .Rmd vai .qmd failu,
-kura nosaukums ir Uzd02\_\[JusuUzvards\], piemēram, `Uzd02_Avotins.Rmd`,
+kura nosaukums ir Uzd13\_\[JusuUzvards\], piemēram, `Uzd13_Avotins.Rmd`,
 kas sagatavots izvadei github dokumentā (piemēram, YAML galvenē norādot
 `output: rmarkdown::github_document`), un tā radīto izvades failu.
 
