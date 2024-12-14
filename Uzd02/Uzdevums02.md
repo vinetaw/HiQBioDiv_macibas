@@ -139,6 +139,9 @@ datus](https://data.gov.lv/dati/lv/dataset/meza-valsts-registra-meza-dati/resour
   objektu - kā darba ātrumu maina ģeometriju pievienošana tikai
   rezultātiem?
 
+- Komandu izpildes ātruma mērogošanai ērtu risinājumu piedāvā
+  {microbenchmark}.
+
 - Darba plūsmas nodrošināšanai ērti ir `pipe` operatori. {tidyverse}
   sintakse ir labi lasāma, tai ir acīmredzama līdzība ar SQL, bet šo
   ērtību dēļ, tā ir plaši atbalstīta arī attiecībā pret ģeodatiem, jo

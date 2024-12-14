@@ -130,6 +130,8 @@ atribūtlaukiem un tikai fragmentāri nepieciešamas ģeometrijas, varbūt ir v�
 neuzturēt *simple features* objektu - kā darba ātrumu maina ģeometriju pievienošana 
 tikai rezultātiem?
 
+- Komandu izpildes ātruma mērogošanai ērtu risinājumu piedāvā {microbenchmark}.
+
 - Darba plūsmas nodrošināšanai ērti ir `pipe` operatori. {tidyverse} sintakse ir 
 labi lasāma, tai ir acīmredzama līdzība ar SQL, bet šo ērtību dēļ, tā ir plaši 
 atbalstīta arī attiecībā pret ģeodatiem, jo sevišķi {sf}. Tas nozīmē, ka veicot agregācijas 
