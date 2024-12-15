@@ -45,7 +45,7 @@ nozīmīga daļa šajā projektā, ir svarīgi, lai tie ir savā starpā salīdz
 
 - [references tīkli kā vektordati](https://zenodo.org/records/14277114);
 
-- [references režģi kā rastra dati](https://zenodo.org/records/14494874).
+- [references režģi kā rastra dati](https://zenodo.org/records/14497070).
 
 Līdzīgi kā vektordatiem, arī rastra datiem ir pieejami dažādi failu formāti. Viens 
 no flagmaņiem darbā ar rastru ir [GDAL](https://gdal.org/en/stable/index.html), 

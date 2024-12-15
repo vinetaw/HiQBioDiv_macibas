@@ -44,7 +44,7 @@ repozitorijā](https://zenodo.org/communities/hiqbiodiv/records?q=&l=list&p=1&s=
 - [references tīkli kā vektordati](https://zenodo.org/records/14277114);
 
 - [references režģi kā rastra
-  dati](https://zenodo.org/records/14494874).
+  dati](https://zenodo.org/records/14497070).
 
 Līdzīgi kā vektordatiem, arī rastra datiem ir pieejami dažādi failu
 formāti. Viens no flagmaņiem darbā ar rastru ir
