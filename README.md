@@ -230,7 +230,7 @@ Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-10**
 
 3. uzdevums: [rastra dati, rasterizēšana un kodējumi](./Uzd03/Uzdevums03.md) 
 
-Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-10**
+Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-10**
 
 4. uzdevums: [funkcijas, cikli, vienkodola un daudzkodolu skaitļošana](./Uzd04/Uzdevums04.md) 
 
