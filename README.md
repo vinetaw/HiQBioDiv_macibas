@@ -238,9 +238,9 @@ Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-10**
 
 5. uzdevums: [procesu dalīšana un rezultātu apvienošana](./Uzd05/Uzdevums05.md) 
 
-Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
+Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-15**
 
-6. uzdevums: [dažādu slāņu apvienošana vienotai ainavas aprakstīšanai](./Uzd06/Uzdevums06.md) 
+6. uzdevums: [dažādu slāņu savienošana vienotai ainavas aprakstīšanai](./Uzd06/Uzdevums06.md) 
 
 Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
 
