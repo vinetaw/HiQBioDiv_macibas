@@ -127,6 +127,9 @@ piemērotāko rīku un darbību kombināciju:
   pret dublēšanos un atgriežamo objektu. Šie argumenti ir izmantojami
   arī *spatial join* darbībās.
 
+- [interesanti piemēri telpiskajām
+  atlasēm](https://cran.r-project.org/web/packages/sfnetworks/vignettes/sfn03_join_filter.html)
+
 Nevar noliegt, ka uzdevumos ar vektordatu griešanu klasiskā GIS,
 piemēram ESRI produkti un QGIS nereti ir pārāki par R, ja tā nav
 paplašināta ar telpiskajām datubāzēm. Tomēr šī projekta ietvaros
