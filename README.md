@@ -234,7 +234,7 @@ Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-10**
 
 4. uzdevums: [funkcijas, cikli, vienkodola un daudzkodolu skaitļošana](./Uzd04/Uzdevums04.md) 
 
-Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-10**
+Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-10**
 
 5. uzdevums: [procesu dalīšana un rezultātu apvienošana](./Uzd05/Uzdevums05.md) 
 
