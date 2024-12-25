@@ -135,7 +135,7 @@ Centra virsmežniecības dati no atvērto datu portāla, kas izmantoti
   ievietotajam [references slānim](https://zenodo.org/records/14497070) `LV10m_10km.tif`;
   
   - iepriekšējā punkta rastru pārveido uz 100 m šūnu, aprēķinot priežu mežaudžu 
-  platības īpatsvaru ik 100 m šūnā, nodrošinot atbilstību 
+  platības īpatsvaru (no kopējās platības) ik 100 m šūnā, nodrošinot atbilstību 
   [projekta *Zenodo* repozitorijā](https://zenodo.org/communities/hiqbiodiv/records?q=&l=list&p=1&s=10&sort=newest) 
   ievietotajam [references slānim](https://zenodo.org/records/14497070) `LV100m_10km.tif`;
   

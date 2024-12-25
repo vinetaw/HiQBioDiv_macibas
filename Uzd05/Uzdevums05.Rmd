@@ -205,7 +205,7 @@ ievietojiet atsevišķā R objektā un izmantojiet turpmākam darbam kā neatkar
 telpiskās daļas iteratīvā aprēķinu procesā. 
 
 Pirms ķeršanās pie uzdevuma, pārskatiet ceturtā uzdevuma funkciju `mana_funkcija` 
-tā, lai izvades rastrs (priežu mežaudzu īpatsvars 100 m šūnā) aptvertu tikai to 
+tā, lai izvades rastrs (priežu mežaudzu īpatsvars (no kopējās platības) 100 m šūnā) aptvertu tikai to 
 teritoriju, kas pilnībā iekļaujas iterētajā telpā (kartes lapā) to pilnībā 
 aptverot. Apsveriet ievades parametru sagatavošanu pirms ievietošanas funkcijā 
 kā alternatīvu funkcijas modificēšanai.
