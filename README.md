@@ -246,7 +246,7 @@ Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-15**
 
 7. uzdevums: [zonālā statistika](./Uzd07/Uzdevums07.md) 
 
-Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
+Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-15**
 
 8. uzdevums: [GEE](./Uzd08/Uzdevums08.md) 
 
