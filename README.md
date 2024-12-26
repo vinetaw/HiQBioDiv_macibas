@@ -250,7 +250,7 @@ Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-15**
 
 8. uzdevums: [GEE](./Uzd08/Uzdevums08.md) 
 
-Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: **2025-01-15**
+Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: **2025-01-15**
 
 9. uzdevums: [sugas izvēle un tās ekoloģijas apraksts](./Uzd09/Uzdevums09.md)  
 (modelēšanai un aizsardzības telpiskajai plānošanai) 
