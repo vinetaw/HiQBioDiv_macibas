@@ -3,11 +3,15 @@ Trešais uzdevums: rastra dati, rasterizēšana un kodējumi
 
 ## Termiņš
 
-Līdz 2025-01-10, izmantojot git pull -\> commit -\> push uz zaru
-“Dalibnieki”, šī uzdevuma direktorijā pievienojot .Rmd vai .qmd failu,
-kura nosaukums ir Uzd03\_\[JusuUzvards\], piemēram, `Uzd03_Avotins.Rmd`,
-kas sagatavots izvadei github dokumentā (piemēram, YAML galvenē norādot
-`output: rmarkdown::github_document`), un tā radīto izvades failu.
+Līdz 2025-01-10, izmantojot
+[fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+un [pull
+request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
+uz zaru “Dalibnieki”, šī uzdevuma direktorijā pievienojot .Rmd vai .qmd
+failu, kura nosaukums ir Uzd03\_\[JusuUzvards\], piemēram,
+`Uzd03_Avotins.Rmd`, kas sagatavots izvadei github dokumentā (piemēram,
+YAML galvenē norādot `output: rmarkdown::github_document`), un tā radīto
+izvades failu.
 
 ## Premise
 

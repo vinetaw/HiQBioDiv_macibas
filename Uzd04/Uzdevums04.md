@@ -4,11 +4,15 @@ skaitļošana
 
 ## Termiņš
 
-Līdz 2025-01-10, izmantojot git pull -\> commit -\> push uz zaru
-“Dalibnieki”, šī uzdevuma direktorijā pievienojot .Rmd vai .qmd failu,
-kura nosaukums ir Uzd04\_\[JusuUzvards\], piemēram, `Uzd04_Avotins.Rmd`,
-kas sagatavots izvadei github dokumentā (piemēram, YAML galvenē norādot
-`output: rmarkdown::github_document`), un tā radīto izvades failu.
+Līdz 2025-01-10, izmantojot
+[fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+un [pull
+request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
+uz zaru “Dalibnieki”, šī uzdevuma direktorijā pievienojot .Rmd vai .qmd
+failu, kura nosaukums ir Uzd04\_\[JusuUzvards\], piemēram,
+`Uzd04_Avotins.Rmd`, kas sagatavots izvadei github dokumentā (piemēram,
+YAML galvenē norādot `output: rmarkdown::github_document`), un tā radīto
+izvades failu.
 
 ## Premise
 
@@ -149,8 +153,8 @@ izmantoti [otrajā uzdevumā](./Uzd02/Uzdevums02.md).
   `LV10m_10km.tif`;
 
 - iepriekšējā punkta rastru pārveido uz 100 m šūnu, aprēķinot priežu
-  mežaudžu platības īpatsvaru ik 100 m šūnā, nodrošinot atbilstību
-  [projekta *Zenodo*
+  mežaudžu platības īpatsvaru (no kopējās platības) ik 100 m šūnā,
+  nodrošinot atbilstību [projekta *Zenodo*
   repozitorijā](https://zenodo.org/communities/hiqbiodiv/records?q=&l=list&p=1&s=10&sort=newest)
   ievietotajam [references slānim](https://zenodo.org/records/14497070)
   `LV100m_10km.tif`;

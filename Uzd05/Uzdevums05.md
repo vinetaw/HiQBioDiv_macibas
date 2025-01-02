@@ -3,11 +3,15 @@ Piektais uzdevums: procesu dalīšana un rezultātu apvienošana
 
 ## Termiņš
 
-Līdz 2025-01-15, izmantojot git pull -\> commit -\> push uz zaru
-“Dalibnieki”, šī uzdevuma direktorijā pievienojot .Rmd vai .qmd failu,
-kura nosaukums ir Uzd05\_\[JusuUzvards\], piemēram, `Uzd05_Avotins.Rmd`,
-kas sagatavots izvadei github dokumentā (piemēram, YAML galvenē norādot
-`output: rmarkdown::github_document`), un tā radīto izvades failu.
+Līdz 2025-01-15, izmantojot
+[fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+un [pull
+request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
+uz zaru “Dalibnieki”, šī uzdevuma direktorijā pievienojot .Rmd vai .qmd
+failu, kura nosaukums ir Uzd05\_\[JusuUzvards\], piemēram,
+`Uzd05_Avotins.Rmd`, kas sagatavots izvadei github dokumentā (piemēram,
+YAML galvenē norādot `output: rmarkdown::github_document`), un tā radīto
+izvades failu.
 
 ## Premise
 
@@ -230,11 +234,11 @@ turpmākam darbam kā neatkarīgas telpiskās daļas iteratīvā aprēķinu
 procesā.
 
 Pirms ķeršanās pie uzdevuma, pārskatiet ceturtā uzdevuma funkciju
-`mana_funkcija` tā, lai izvades rastrs (priežu mežaudzu īpatsvars 100 m
-šūnā) aptvertu tikai to teritoriju, kas pilnībā iekļaujas iterētajā
-telpā (kartes lapā) to pilnībā aptverot. Apsveriet ievades parametru
-sagatavošanu pirms ievietošanas funkcijā kā alternatīvu funkcijas
-modificēšanai.
+`mana_funkcija` tā, lai izvades rastrs (priežu mežaudzu īpatsvars (no
+kopējās platības) 100 m šūnā) aptvertu tikai to teritoriju, kas pilnībā
+iekļaujas iterētajā telpā (kartes lapā) to pilnībā aptverot. Apsveriet
+ievades parametru sagatavošanu pirms ievietošanas funkcijā kā
+alternatīvu funkcijas modificēšanai.
 
 Salīdziniet procesēšanas laiku katrā uzdevuma daļā (sekojošajā
 uzskaitījumā) no telpas dalīšanas uzsākšanas (ieskaitot) līdz
