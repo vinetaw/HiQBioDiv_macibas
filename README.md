@@ -259,7 +259,7 @@ Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: ~~(2025-01-20)~~ ~~(2
 
 10. uzdevums: [novērojumu atlase modelēšanai](./Uzd10/Uzdevums10.md) 
 
-Nosacījumi: *tiek izstrādāti*; Risinājuma iesniegšana līdz: ~~(2025-01-20)~~ ~~(2025-02-17)~~  ~~(2025-02-24)~~ **2025-03-03**
+Nosacījumi: **pieejami**; Risinājuma iesniegšana līdz: ~~(2025-01-20)~~ ~~(2025-02-17)~~  ~~(2025-02-24)~~ **2025-03-03**
 
 11. uzdevums: [sugai specifiski ekoģeogrāfiskie mainīgie](./Uzd11/Uzdevums11.md) 
 
