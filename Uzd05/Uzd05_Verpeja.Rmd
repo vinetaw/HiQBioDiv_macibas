@@ -1,0 +1,38 @@
+---
+title: "Piektais uzdevums: procesu dalīšana un rezultātu apvienošana"
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r Vajadzīgo pakotņu ielāde, warning=FALSE}
+library(sf)
+library(terra)
+library(sfarrow)
+library(curl)
+```
+
+# 1. uzdevums
+
+```{r Datu ielase}
+#MVR centra datu ielase
+MVR_dati <- st_read_parquet("C:/Users/vinet/Documents/VPP/2uzd/apv_centra.parquet", quiet = TRUE)
+
+#Kartes lapu lejupielāde un ielase
+kartes_url <- "https://zenodo.org/records/14277114/files/tks93_50km.parquet?download=1"
+curl_download(kartes_url, "C:/Users/vinet/Documents/VPP/5uzd/karte.parquet")
+
+#Lejuplādēto parquet failu pārveidoju arī par shape failu, lai varētu ArcMap programmā apskatīties un izvēlēties 4 blakus esošas lapas
+kartes <- st_read_parquet("C:/Users/vinet/Documents/VPP/5uzd/karte.parquet", quiet = TRUE)
+st_write(kartes, "kartes.shp", overwrite = TRUE)
+
+#Izvēlos ņemt kartes lapas ar numuru - 3244, 3333, 3331, 3242. Ielasu karti R un atlasu vajadzīgās lapas.
+
+#kartes <- kartes %>%
+#  filter(kartes$NUMURS == c(3244, 3333, 3331, 3242))
+
+#Lieko objektu noņemšana
+rm(kartes_url)
+```
