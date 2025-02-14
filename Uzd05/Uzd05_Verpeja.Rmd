@@ -18,14 +18,14 @@ library(curl)
 
 ```{r Datu ielase}
 #MVR centra datu ielase
-MVR_dati <- st_read_parquet("C:/Users/vinet/Documents/VPP/2uzd/apv_centra.parquet", quiet = TRUE)
+MVR_dati <- st_read_parquet("../../2uzd/apv_centra.parquet", quiet = TRUE)
 
 #Kartes lapu lejupielāde un ielase
 kartes_url <- "https://zenodo.org/records/14277114/files/tks93_50km.parquet?download=1"
-curl_download(kartes_url, "C:/Users/vinet/Documents/VPP/5uzd/karte.parquet")
+curl_download(kartes_url, "./karte.parquet")
 
 #Lejuplādēto parquet failu pārveidoju arī par shape failu, lai varētu ArcMap programmā apskatīties un izvēlēties 4 blakus esošas lapas
-kartes <- st_read_parquet("C:/Users/vinet/Documents/VPP/5uzd/karte.parquet", quiet = TRUE)
+kartes <- st_read_parquet("./karte.parquet", quiet = TRUE)
 st_write(kartes, "kartes.shp", overwrite = TRUE)
 
 #Izvēlos ņemt kartes lapas ar numuru - 3244, 3333, 3331, 3242. Ielasu karti R un atlasu vajadzīgās lapas.
