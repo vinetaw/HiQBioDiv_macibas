@@ -12,6 +12,7 @@ library(sf)
 library(terra)
 library(sfarrow)
 library(curl)
+library(dplyr)
 ```
 
 # 1. uzdevums
@@ -26,12 +27,12 @@ curl_download(kartes_url, "./karte.parquet")
 
 #Lejuplādēto parquet failu pārveidoju arī par shape failu, lai varētu ArcMap programmā apskatīties un izvēlēties 4 blakus esošas lapas
 kartes <- st_read_parquet("./karte.parquet", quiet = TRUE)
-st_write(kartes, "kartes.shp", overwrite = TRUE)
+st_write(kartes, "./kartes.shp", overwrite = TRUE)
 
 #Izvēlos ņemt kartes lapas ar numuru - 3244, 3333, 3331, 3242. Ielasu karti R un atlasu vajadzīgās lapas.
 
-#kartes <- kartes %>%
-#  filter(kartes$NUMURS == c(3244, 3333, 3331, 3242))
+kartes <- kartes %>%
+  filter(NUMURS %in% c(3244, 3333, 3331, 3242))
 
 #Lieko objektu noņemšana
 rm(kartes_url)
