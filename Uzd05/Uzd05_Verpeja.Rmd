@@ -7,17 +7,52 @@ output: rmarkdown::github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r Vajadzīgo pakotņu ielāde, warning=FALSE}
+# Sagatavošanās darbam
+
+```{r Vajadzīgo pakotņu ielāde, warning=FALSE, message=FALSE}
 library(sf)
 library(terra)
 library(sfarrow)
 library(curl)
 library(dplyr)
+library(fasterize)
+library(leaflet)
+library(tools)
+library(purrr)
 ```
 
-# 1. uzdevums
+Iepriekšējā uzdevumā izveidotā Mana_funkcija jau korekti apgrieza failus, taču es veicu pāris citus koriģējumus.
+```{r Mana_funkcija piekoriģēšana}
+mana_funkcija <- function(ievades_fails) {
+#MVR datu ielase un priežu mežaudžu atlase
+MVR_dati <-st_read_parquet(ievades_fails, quiet = TRUE)
+priezu_mezaudzes <- MVR_dati %>%
+  filter(zkat == 10, s10 == 1)
 
-```{r Datu ielase}
+#Refernces rastru ielase un apgriešana
+r_10m <- raster("../../3uzd/rastrs/LV10m_10km.tif")
+r_10m <- crop(r_10m, MVR_dati)
+crs(r_10m) <- "EPSG:3059"
+r_100m <-rast("../../3uzd/rastrs/LV100m_10km.tif")
+r_100m <- crop(r_100m, MVR_dati)
+
+
+#MVR priezu mežaudžu datu rasterizācija
+priezu_mezaudzes_10m <- fasterize(priezu_mezaudzes, r_10m, background=0)
+priezu_mezaudzes_10m[is.na(r_10m)] <- NA
+priezu_mezaudzes_10m <- rast(priezu_mezaudzes_10m)
+
+#Gala nosaukuma izveide
+datu_nosaukums <- file_path_sans_ext(basename(ievades_fails))
+gala_nosaukums <- file.path( "./lapu_faili", paste0(datu_nosaukums, ".tif"))
+
+#Rasterizētā faila pārveide uz 100m izšķirtspēju un faila saglabāšana
+priezu_mezaudzes_100m <- resample(priezu_mezaudzes_10m, r_100m, method="average", filename=gala_nosaukums, overwrite=TRUE)
+}
+```
+
+MVR centra un kartes datu ielase.
+```{r Datu ielase, cache=TRUE}
 #MVR centra datu ielase
 MVR_dati <- st_read_parquet("../../2uzd/apv_centra.parquet", quiet = TRUE)
 
@@ -27,13 +62,100 @@ curl_download(kartes_url, "./karte.parquet")
 
 #Lejuplādēto parquet failu pārveidoju arī par shape failu, lai varētu ArcMap programmā apskatīties un izvēlēties 4 blakus esošas lapas
 kartes <- st_read_parquet("./karte.parquet", quiet = TRUE)
-st_write(kartes, "./kartes.shp", overwrite = TRUE)
+#st_write(kartes, "./kartes.shp", overwrite = TRUE)
 
 #Izvēlos ņemt kartes lapas ar numuru - 3244, 3333, 3331, 3242. Ielasu karti R un atlasu vajadzīgās lapas.
-
 kartes <- kartes %>%
   filter(NUMURS %in% c(3244, 3333, 3331, 3242))
 
+#Lai gan abu objektu koordinātu sistēma ir LKS-92, ir tomēr kāda atšķirība crs. Tāpēc pārveidoju lai to crs pilnībā sakristu un turmākās darbības varētu korekti veikt.
+crs_MVR <- st_crs(MVR_dati)
+kartes <- st_transform(kartes, crs_MVR)
+
 #Lieko objektu noņemšana
-rm(kartes_url)
+rm(kartes_url, crs_MVR)
 ```
+
+Atsevišķu parquet failu izveidi katrai kartes lapai
+```{r Lapu failu saglabāšana, warning=FALSE}
+lapu_saraksts <- c(3244, 3333, 3331, 3242)
+dir.create("./lapu_faili")
+lapu_mape <- "./lapu_faili"
+
+for (x in lapu_saraksts) {
+  lapa <- kartes %>% filter(NUMURS == x)
+  faila_nosaukums <- paste0("lapa_", x, ".parquet")
+  faila_vieta <- file.path(lapu_mape, faila_nosaukums)
+  st_write_parquet(lapa, faila_vieta)}
+rm(lapu_saraksts, lapu_mape)
+```
+
+# 1. uzdevums
+
+## 1.1. solis
+```{r Obejektu apvienošana, warning=FALSE}
+lapu_f_saraksts <- list.files("./lapu_faili", full.names = TRUE)
+
+system.time(for (x in lapu_f_saraksts) {
+  lapa <- st_read_parquet(x, quiet = TRUE)
+  MVR_karte <- st_join(MVR_dati, lapa, left=FALSE)
+  lapas_nr <- file_path_sans_ext(basename(x))
+  faila_nosaukums <- paste0("1uzd_", lapas_nr, ".parquet")
+  faila_vieta <- file.path("./lapu_faili", faila_nosaukums)
+  st_write_parquet(MVR_karte, faila_vieta)})
+rm(lapu_f_saraksts, lapa, dim, x)
+```
+
+Ielasu visus uztaisītos failus, lai apskatītu to saturu.
+```{r Satura pārbaude}
+uzd1_f_saraksts <- list.files("./lapu_faili", pattern = "^1uzd", full.names = TRUE)
+uzd1_obj <- map(uzd1_f_saraksts, st_read_parquet)
+dim(uzd1_obj[[1]])
+dim(uzd1_obj[[2]])
+dim(uzd1_obj[[3]])
+dim(uzd1_obj[[4]])
+nrow(uzd1_obj[[1]]) + nrow(uzd1_obj[[2]]) + nrow(uzd1_obj[[3]]) + nrow(uzd1_obj[[4]])
+```
+ 
+Vizuāli apskatu vienu no izveidotajiem failiem, lai pārbaudītu kā funkcija veica savu darbību.
+```{r Vizuālā apskate}
+apskates_funkcija <- (function(apskates_fails, lapas_robezas_fails) {
+  lapa <- st_read_parquet(apskates_fails, quiet = TRUE)
+  lapa_wgs <- st_transform(lapa, crs = 4326)
+  lapas_robezas <- st_read_parquet(lapas_robezas_fails, quiet = TRUE)
+  lapas_robezas_wgs <- st_transform(lapas_robezas, crs = 4326)
+  leaflet() %>%
+ addTiles() %>%
+  addPolygons(data = lapa_wgs, color = "blue")%>%
+  addPolygons(data = lapas_robezas_wgs, color = "red")})
+ 
+apskates_funkcija("./lapu_faili/1uzd_lapa_3242.parquet","./lapu_faili/lapa_3242.parquet")
+```
+
+Atbilde: No sākuma MVR failā bija 505654 rindiņas un 71 kolonna, bet izmantojot sf::st_join funkciju atsevišķajos kartes lapu failos ir 7683, 22807, 15729, 33449 rindiņas (kopā 79668) un 75 kolonnas katrā. Katrā lapas objektā ir iekļauti arī MVR poligoni, kas ir uz lapas robežas.
+
+## 1.2. solis
+
+```{r Mana_funkcija izpilde visām kartes lapām ar MVR datiem}
+for (x in uzd1_f_saraksts) {
+  mana_funkcija(x)}
+```
+
+```{r Vizuālā apskate}
+apskates_funkcija2 <- (function(rastrs_fails, lapas_robezas_fails) {
+  lapa <- rast(rastrs_fails)
+  lapas_robezas <- st_read_parquet(lapas_robezas_fails, quiet = TRUE)
+  lapas_robezas_wgs <- st_transform(lapas_robezas, crs = 4326)
+  pareja <- colorNumeric(palette = "Blues", domain = c(0, 1))
+  leaflet() %>%
+ addTiles() %>%
+  addRasterImage(lapa, color = pareja)%>%
+  addPolygons(data = lapas_robezas_wgs, color = "red")})
+ 
+apskates_funkcija2("./lapu_faili/1uzd_lapa_3242.tif","./lapu_faili/lapa_3242.parquet")
+```
+Atbilde: 
+
+
+
+
